@@ -42603,3 +42603,50 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1535357136.9209
     'REQUEST_TIME' => 1535357136
 ]
+2018-08-27 08:20:11 [2.187.234.178][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 2.187.234.178
+    in /home/www/app/application/frontend/views/layouts/main.php:43
+    in /home/www/app/application/frontend/controllers/SiteController.php:75
+2018-08-27 08:20:11 [2.187.234.178][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 2.187.234.178
+2018-08-27 08:20:11 [2.187.234.178][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'HTTP_ACCEPT_ENCODING' => 'identity'
+    'HTTP_CONTENT_LENGTH' => '0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+    'HTTP_HOST' => '39.105.23.215:80'
+    'SCRIPT_FILENAME' => '/home/www/app/application/frontend/web/index.php'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '172.17.151.169'
+    'REMOTE_PORT' => '43431'
+    'REMOTE_ADDR' => '2.187.234.178'
+    'SERVER_SOFTWARE' => 'nginx/1.12.2'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/www/app/application/frontend/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => '0'
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1535358011.8148
+    'REQUEST_TIME' => 1535358011
+]
