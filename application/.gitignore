@@ -33,3 +33,10 @@ phpunit.phar
 
 # vagrant runtime
 /.vagrant
+
+/*/config
+
+/*/runtime
+
+#/.gitinore
+

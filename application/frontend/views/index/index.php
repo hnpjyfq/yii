@@ -3,7 +3,7 @@
 <!--     <div class="jumbotron">
         <h1>Congratulations!</h1>
 
-        <p class="lead">You have successfully created your Yii-powered application.</p>
+        <p class="lead">You have successfully created your Yii-powe#FFF application.</p>
 
         <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
     </div> -->
@@ -113,6 +113,7 @@ img{
             <div class="col-xs-12 col-md-4 col-lg-2 col-md-offset-4 col-lg-offset-5 text-center" id="login">
                 <div class="page-header">
                     <img src="/../img/favicon.ico" class=" img-circle img-responsive img-thumbnail" style="width: 7.5rem">
+                    <!-- <img src="/index/qrcode" class=" img-circle img-responsive img-thumbnail" style="width: 7.5rem"> -->
                     <h1 style="color: white"><?= Yii::t('common', 'login-title')?></h1>
                 </div>
                 <!-- <form class="form-horizontal"> -->
@@ -160,5 +161,6 @@ img{
     $('#login').on('mouseout',function(){
         $('img').css('filter','grayscale(100)');
     });
+    
 </script>
 <?php $this->endBlock(); ?>

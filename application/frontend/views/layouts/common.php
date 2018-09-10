@@ -9,6 +9,7 @@ use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use frontend\assets\AppAsset;
 use common\widgets\Alert;
+use yii\web\UrlManager;
 
 AppAsset::register($this);
 ?>
@@ -22,18 +23,22 @@ AppAsset::register($this);
     <?= Html::csrfMetaTags() ?>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
+    <?php if(isset($this->blocks['style1'])):?>
+		<?=$this->blocks['style1'];?>
+	<?php endif;?>
 </head>
 <body>
 <?php $this->beginBody() ?>
 
 
 	<div id="placeholder"></div>
-    <div class="container-fluid " style="background: black;height: 100%;overflow: hidden;">
+    <div class="container-fluid text-center" style="background: black;height: 100%;overflow: hidden;">
         <?=$content;?>
     </div>
 
-	<?=$this->blocks['script'];?>
 <?php $this->endBody() ?>
 </body>
 </html>
 <?php $this->endPage() ?>
+
+<?=$this->blocks['script'];?>
